@@ -1,0 +1,129 @@
+
+   body{
+    padding: 0px;
+    margin: 0px;  
+    font-family: sans-serif;
+  
+   }   
+
+
+ .container{
+      width: 90%;
+      margin: auto;
+      overflow: hidden;
+    }
+
+
+    #contact-section{
+      background: linear-gradient(rgba(255, 204, 85, 0.726),rgba(255, 255, 255, 0.9));
+      background-size: cover;
+      background-position: center;
+      height: 100%;
+      width: 100% ;
+      padding-bottom: 2%;
+    }
+
+    #contact-section .container h2{
+      text-align: center;
+       text-decoration: underline;
+        text-underline-position: under;
+        color: rgb(0, 0, 0);
+        letter-spacing: 2px;
+        
+    }
+
+    
+
+    #contact-section .container p{
+      text-align: center; 
+      width: 70%; 
+      margin-left: auto;
+       margin-right: auto; 
+       padding-bottom: 3%;
+       color: rgb(3, 0, 0);
+       letter-spacing:3px;
+       text-decoration: underline;
+    }
+
+    .contact-form i.fa{
+      font-size: 22px; 
+      padding: 3%;
+      background-color: none;
+      border-radius: 80%;
+      margin: 2%;
+      cursor: pointer;
+      border:2px solid rgb(190, 190, 190);
+      color: rgb(0, 0, 0);
+    }
+    
+    .contact-form i.fa:hover{
+      cursor: pointer;
+      border:2px solid white;
+      color: white;
+    }
+     
+      .contact-form{
+        display:grid;
+        grid-template-columns: auto auto;
+         }
+      
+      .form-info{
+        font-size: 16px;
+        font-style: italic;
+        color: rgb(0, 0, 0);
+        letter-spacing: 2px;
+      }
+      input{
+        padding: 10px;
+        margin:10px;
+        width: 70%;
+        background-color:rgb(255, 255, 255);
+        color: black;
+        border: none;
+        outline:none;
+      }
+
+      input::placeholder{
+        color: white;
+      }
+    
+       textarea{
+      padding: 10px;
+      margin: 10px;     
+      width: 70%;
+      background-color:rgb(255, 255, 255);
+      color: rgb(36, 3, 3);
+      border: none;
+      outline:none;
+     }
+     textarea::placeholder{
+       color: rgb(255, 255, 255);
+       font-style: normal;
+     }
+     
+      
+    
+      .submit{
+      width: 40%;
+      background: none;
+      padding: 4px;
+      outline: none;
+      font-size: 13px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      height: 33px;
+      text-align: center;
+      cursor: pointer;
+      letter-spacing: 2px;
+      margin-left: 3%;
+      border:2px solid rgb(8, 0, 0);
+      color: rgb(0, 0, 0);
+     }
+
+     .submit:hover{
+           border: 1px solid #fff;
+      color: rgb(255, 0, 0);
+      cursor: pointer;
+     }
+
+   

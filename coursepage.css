@@ -1,0 +1,95 @@
+.course-H {
+        text-align: center;
+        height: 70px;
+        margin: 50px;
+    }
+.company{
+    text-align: center;
+    height: 70px;
+    margin: 50px;
+    }
+    
+    @media screen and (max-width:600px){
+        #cs-container{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        #cs-card{
+            max-width: 170px;
+            margin: 8px 8px 14px 14px;
+            height: 220px;
+            border-radius: 3px;
+        }
+        .course-container div img {
+            height: auto;
+            max-width: 170px;
+        }
+        #cs-container div h2 {
+            margin: 4px;
+            font-size: 1.2rem;
+            background-color: white;
+            text-align: center;
+        }
+        #cs-container div input {
+            margin: 12px 3px;
+            padding: 6px 53px 8px 50px;
+            
+        }
+        #cs-card p{
+            text-align: center;
+            font-weight: bold;
+            box-shadow: 2px 5px 24px rgba(0, 0, 0, 0.1);
+            padding:5px;
+        }
+        #cs-card p >ins{
+            color: green;
+        }
+        
+    }
+
+    .course-card {
+        box-shadow: rgb(174, 172, 172) 0px 0px 10px;
+        outline: 1px solid #d6d6d6;
+        background-color: white;
+        height: 280px;
+        width: 252px;
+        margin: 20px;
+    }
+    
+    .course-container div img {
+        height: auto;
+        width: inherit;
+        /* margin: 0px; */
+    }
+    
+    .course-container div h2 {
+        margin: 8px;
+        font-size: 1.2rem;
+        background-color: white;
+    }
+    
+    .course-container div input {
+        border: none;
+        background-color: #2196F3;
+        border-radius: 4px;
+        margin: 14px 9px;
+        padding: 4px 81px;
+        cursor: pointer;
+    
+    }
+    
+    .course-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+    }
+    #cs-card p{
+        text-align: center;
+        font-weight: bold;
+        box-shadow: 2px 5px 24px rgba(0, 0, 0, 0.1);
+        padding:5px;
+    }
+    #cs-card p >ins{
+        color: green;
+    }
+    /* Course Section End*/
